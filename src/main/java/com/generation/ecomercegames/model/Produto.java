@@ -23,6 +23,9 @@ public class Produto {
 	@NotNull(message = "O atributo nome é obrigatório")
     private String nome;
     
+	@NotNull(message = "O atributo descrição é obrigatório")
+    private String descrição; 
+
 	
 	@NotNull(message = "O atributo preço é obrigatório")
 	private BigDecimal preço; 
@@ -34,8 +37,6 @@ public class Produto {
 	
 	@NotNull(message = "O atributo data é obrigatório")
 	private Date lançamento_data; 
-	
-	
 	
 	
 	
